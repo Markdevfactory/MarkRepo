@@ -1,4 +1,4 @@
 git pull
 npm install --production
 npm install -g forever
-node app.js
+forever restartall
