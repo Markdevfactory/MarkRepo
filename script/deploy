@@ -1,4 +1,8 @@
+#!/bin/sh
+
 git pull
 npm install --production
-npm install -g forever
+npm install forever -g
+forever start app.js
 forever restartall
+exit
