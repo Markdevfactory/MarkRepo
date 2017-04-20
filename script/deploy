@@ -1,4 +1,4 @@
-npm install -g forever
 git pull
 npm install --production
+npm install -g forever
 forever restartall
