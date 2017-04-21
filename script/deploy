@@ -3,6 +3,6 @@
 git pull
 npm install --production
 npm install forever -g
-%APPDATA%\npm\forever start app.js
-%APPDATA%\npm\forever restartall
+./node_modules/.bin/forever start app.js
+npm forever restartall
 exit
