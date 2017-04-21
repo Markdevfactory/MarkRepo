@@ -2,6 +2,7 @@
 
 git pull
 npm install --production
-
-forever restartall
+npm install forever -g
+C:\Users\folio 13\appdata\Roaming\npm\forever start app.js
+C:\Users\folio 13\appdata\Roaming\npm\forever restartall
 exit
